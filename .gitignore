@@ -1,0 +1,89 @@
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
+# Created by https://www.toptal.com/developers/gitignore/api/flask
+# Edit at https://www.toptal.com/developers/gitignore?templates=flask
+
+### react ###
+frontend/.DS_*
+frontend/*.log
+frontend/logs
+frontend/**/*.backup.*
+frontend/**/*.back.*
+
+node_modules
+bower_components
+
+frontend/*.sublime*
+
+frontend/psd
+frontend/thumb
+frontend/sketch
+
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+frontend/venv
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+__pycache__
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+
+
+### Flask.Python Stack ###
+# Byte-compiled / optimized / DLL files
+backend/__pycache__/
+backend/helper/__pycache__/
+
+
+# Environments
+backend/.venv
+backend/env/
+backend/venv/
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+backend/flow_env/
+
+
+
+backend/instance/
+
+# Distribution / packaging
+backend/.Python
+build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/share/python-wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/MANIFEST
+
+# End of https://www.toptal.com/developers/gitignore/api/react
+# End of https://www.toptal.com/developers/gitignore/api/react
